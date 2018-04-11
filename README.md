@@ -1,5 +1,9 @@
 #1주차
 
+## Interpreter 설정하기
+    * 
+    * 
+
 ## project만들기
     * Create Project를 누르세요
     * 경로설정을 해야합니다.
@@ -12,10 +16,10 @@
     * 왼쪽에 파일이 보이는 부분을 project explorer라고 합니다.
 
     * python_practice_01이라고 되어있는 부분이
-    * project root입니다.
+    * project root(프로젝트 루트)입니다.
 
 ## package만들고 python파일 만들기
-    * 오른쪽 버튼을 눌러서 context menu를 엽니다.
+    * 프로젝트 루트에서 오른쪽 버튼을 눌러서 context menu를 엽니다.
     * 마우스 오른쪽 버튼을 누르면 나오는 메뉴가 context메뉴 입니다.
 
     * New -> python package 선택합니다.
