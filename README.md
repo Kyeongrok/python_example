@@ -61,7 +61,8 @@
     * 들여쓰기가 들어가지 않은 줄이 나올때까지를 function 으로 봅니다.
 
 ## function(함수) 실행하기, 호출하기
-    * print_hello()
+    * print_hello()로 실행한다.
+    
     * <함수 이름>()
     * <함수 이름>(파라메터)
     * <함수 이름>(파라메터1, 파라메터2)
@@ -77,10 +78,20 @@
     * ex) "hello"와 같이 ""를 붙인다.
     * 뒤에 매개변수 할때 나옴.
 
+https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
 ## parameter란?
     * 파라메터로 읽는다. 매개변수로 번역 되었다.
     * 함수를 호출 할 때 함수로 값을 넘겨줄 때 사용한다.
     * 파라메터는 여러개를 만들 수 있다.
+
+## parameter여러개 만들기
+<pre>
+
+def print_message_who(p_message, p_who):
+    print(p_message, p_who)
+
+print_message_who("hello", "kyeongrok")
+</pre>
 
 ## return이란?
     * 리턴이라고 읽는다. 돌려준다 반환한다 등으로 번역되었다.
@@ -91,6 +102,8 @@
 
 # 2주차
 ## formatting
+    * formatting은 특정 정보들을 포메팅 해서 출력하기 위해 사용합니다.
+    * 여러가지 정보를 형식에 맞추어 한줄에 출력 하고 싶을 때 사용합니다. 
 <pre>
 print('greet:{} name:{}'.format('hello', 'kyeongork'))
 

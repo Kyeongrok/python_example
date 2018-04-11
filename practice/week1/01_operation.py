@@ -1,8 +1,0 @@
-# plus
-
-# minus
-
-# multiple
-
-# divide
-
