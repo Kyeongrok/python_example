@@ -105,6 +105,16 @@ print_hello() #로 실행한다.
 
 ## 변수와 상수
 변수는 '변'하는 '수'(값)이고 상수는 항'상' 같은 '수'(값)
+```python
+result = 10
+print(result)
+result = 20
+print(result)
+
+print("10")
+print("20")
+```
+
 * 변수는 값을 저장 하는 곳
 * ex) hello = 10에서 앞에 hello
 * 상수는 "hello"와 같이 ""를 붙인다.
