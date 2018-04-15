@@ -122,22 +122,21 @@ hello = "world"
 world = "hello"
 ```
 * 상수는 "hello"와 같이 ""를 붙인다.
+* 변수는 hello와 같이 ""를 안붙인다.
 
 https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
-## parameter란?
+## Parameter(파라메터)란?
+함수를 호출 할 때 함수로 값을 넘겨줄 때 사용하는 변수. '파라메터'라고 읽습니다. 한글로 번역된 말은 '매개변수'입니다.
 ```python
 def print_message(p_message):
     print(p_message)
 
 print_message("bye")
 ```
-    * 파라메터로 읽는다.
-    * 함수 이름 옆에 ()안에 들어간다. ex) print_message(p_message)
-    * 매개변수로 번역 되었다.
-    * 함수를 호출 할 때 함수로 값을 넘겨줄 때 사용한다.
-    * 파라메터는 여러개를 만들 수 있다.
+* 함수 이름 옆에 ()안에 들어갑니다. ex) print_message(p_message)    
+* 파라메터는 여러개를 만들 수 있습니다.
 
-## parameter여러개 만들기
+## Parameter여러개 만들기
 parameter를 이용하면 외부에서 여러개의 값을 받을 수 있다.
 ```python
 def print_message_who(p_message, p_who):
