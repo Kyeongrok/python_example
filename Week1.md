@@ -66,7 +66,7 @@ def
 def 
 ```     
     
-* 그 옆에는 이름이 나온다.
+* 그 옆에는 이름(print_hello)을 적는다.
 ```python
 def print_hello
 ```
@@ -90,6 +90,7 @@ def print_hello():
 ```
 
 * 들여쓰기가 들어가지 않은 줄이 나올때까지를 function 으로 봅니다.
+
 
 ## function(함수) 실행하기, 호출하기
 함수는 선언 한 후에 호출을 해주어야 실행이 되기 때문에 호출을 해줍니다.
