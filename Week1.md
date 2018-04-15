@@ -1,3 +1,6 @@
+## Programming이란
+반복문에 function을 실행하는 것
+
 ## Interpreter 설정하기
 Python3로 인터프린터가 설정 되어있는지 확인
 
@@ -63,7 +66,7 @@ def
 def 
 ```     
     
-    * 그 옆에는 이름이 나온다.
+* 그 옆에는 이름이 나온다.
 ```python
 def print_hello
 ```
@@ -77,13 +80,19 @@ def print_hello()
 ```python
 def print_hello():
 ```    
-    * 엔터를 친다.
-    * tab을 넣는다
-    * 넣고 싶은 기능을 코딩한다. ex) print("hello")
+* 엔터를 친다.
+* tab을 넣는다
+* 넣고 싶은 기능을 코딩한다. ex) print("hello")
 
-    * 들여쓰기가 들어가지 않은 줄이 나올때까지를 function 으로 봅니다.
+```python
+def print_hello():
+    print("hello")
+```
+
+* 들여쓰기가 들어가지 않은 줄이 나올때까지를 function 으로 봅니다.
 
 ## function(함수) 실행하기, 호출하기
+함수는 선언 한 후에 호출을 해주어야 실행이 되기 때문에 호출을 해줍니다.
 ```python
 print_hello() #로 실행한다.
 ```
@@ -130,4 +139,15 @@ print_message_who("hello", "kyeongrok")
 * 함수를 실행한 결과를 함수를 호출한 곳으로 보내준다.
 * 왜 쓰냐면 연산한 결과를 다른곳에 사용하기 위함
 * 처음에 console만 보면 동일해서 헷갈림.
+
+## 반복문(for문)
+```python
+for item in range(0, 10):
+    print(item)
+```
+
+* for로 시작을 합니다
+* item은 변수 입니다. 값이 바뀝니다 뒤에 나오는거에 따라
+* in을 씁니다. 뒤에 있는것 안에서 뽑아온다는 뜻입니다.
+* range(0, 10)은 0 ~ 9까지 숫자 목록(list)을 만들어줍니다.
 
