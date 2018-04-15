@@ -104,13 +104,10 @@ print_hello() #로 실행한다.
     * window 단축키 : Ctrl + Shift + F10
 
 ## 변수와 상수
-    * 변수는 값을 저장 하는 곳
-    * 상수는 지금은 어려움으로 "hello"
-    * 변수 - '변'하는 '수'(값)
-    * ex) hello = 10에서 앞에 hello
-    * 상수 - 항'상' 같은 '수'(값)
-    * ex) "hello"와 같이 ""를 붙인다.
-    * 뒤에 매개변수 할때 나옴.
+변수는 '변'하는 '수'(값)이고 상수는 항'상' 같은 '수'(값)
+* 변수는 값을 저장 하는 곳
+* ex) hello = 10에서 앞에 hello
+* 상수는 "hello"와 같이 ""를 붙인다.
 
 https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
 ## parameter란?
