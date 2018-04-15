@@ -117,6 +117,10 @@ print("20")
 
 * 변수는 값을 저장 하는 곳
 * ex) hello = 10에서 앞에 hello
+```python
+hello = "world"
+world = "hello"
+```
 * 상수는 "hello"와 같이 ""를 붙인다.
 
 https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
