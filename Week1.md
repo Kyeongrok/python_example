@@ -46,18 +46,37 @@ File -> Settings -> interpreter 검색
     * f, fn, f(x)
     * python의 모든 기능들은 function으로 되어있다.
     * 값을 넣으면 특정 로직을 실행하고 때로는 결과값을 알려준다.
+    * 함수는 선언을 하고 호출을 해야 실행된다.
 
 ## Function(함수)만들기
 ```python
 def print_hello():
     print("hello")
 ```
-    * def로 시작한다.
-    * def옆에 한칸을 띄운다
+
+* def로 시작한다.
+```python
+def
+```
+* def옆에 한칸을 띄운다
+```python
+def 
+```     
+    
     * 그 옆에는 이름이 나온다.
-    * 이름은 아무거나 가능하다. ex)aaaa, bbb, plus, minus
-    * 이름 옆에는 ()를 붙인다.
-    * ()옆에는 :를 붙인다.
+```python
+def print_hello
+```
+* 이름은 아무거나 가능하다. ex)aaaa, bbb, plus, minus
+
+* 이름 옆에는 ()를 붙인다.
+```python
+def print_hello()
+```
+* ()옆에는 :를 붙인다.
+```python
+def print_hello():
+```    
     * 엔터를 친다.
     * tab을 넣는다
     * 넣고 싶은 기능을 코딩한다. ex) print("hello")
@@ -68,8 +87,6 @@ def print_hello():
 ```python
 print_hello() #로 실행한다.
 ```
-
-    
     * <함수 이름>()
     * <함수 이름>(파라메터)
     * <함수 이름>(파라메터1, 파라메터2)
@@ -87,11 +104,20 @@ print_hello() #로 실행한다.
 
 https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
 ## parameter란?
-    * 파라메터로 읽는다. 매개변수로 번역 되었다.
+```python
+def print_message(p_message):
+    print(p_message)
+
+print_message("bye")
+```
+    * 파라메터로 읽는다.
+    * 함수 이름 옆에 ()안에 들어간다. ex) print_message(p_message)
+    * 매개변수로 번역 되었다.
     * 함수를 호출 할 때 함수로 값을 넘겨줄 때 사용한다.
     * 파라메터는 여러개를 만들 수 있다.
 
 ## parameter여러개 만들기
+parameter를 이용하면 외부에서 여러개의 값을 받을 수 있다.
 ```python
 def print_message_who(p_message, p_who):
     print(p_message, p_who)
@@ -100,8 +126,8 @@ print_message_who("hello", "kyeongrok")
 ```
 
 ## return이란?
-    * 리턴이라고 읽는다. 돌려준다 반환한다 등으로 번역되었다.
-    * 함수를 실행한 결과를 함수를 호출한 곳으로 보내준다.
-    * 왜 쓰냐면 연산한 결과를 다른곳에 사용하기 위함
-    * 처음에 console만 보면 동일해서 헷갈림.
+리턴이라고 읽는다. 돌려준다 반환한다 등으로 번역되었다.
+* 함수를 실행한 결과를 함수를 호출한 곳으로 보내준다.
+* 왜 쓰냐면 연산한 결과를 다른곳에 사용하기 위함
+* 처음에 console만 보면 동일해서 헷갈림.
 
