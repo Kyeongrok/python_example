@@ -151,14 +151,4 @@ print_message_who("hello", "kyeongrok")
 * 왜 쓰냐면 연산한 결과를 다른곳에 사용하기 위함
 * 처음에 console만 보면 동일해서 헷갈림.
 
-## 반복문(for문)
-```python
-for item in range(0, 10):
-    print(item)
-```
-
-* for로 시작을 합니다
-* item은 변수 입니다. 값이 바뀝니다 뒤에 나오는거에 따라
-* in을 씁니다. 뒤에 있는것 안에서 뽑아온다는 뜻입니다.
-* range(0, 10)은 0 ~ 9까지 숫자 목록(list)을 만들어줍니다.
 
