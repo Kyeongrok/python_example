@@ -6,8 +6,8 @@
     * function
     * parameter
     * return
-    * for
 * [2주차](./Week2.md)
+    * for
     * formatting
     * 크롤링이란?
     * 파싱이란?
