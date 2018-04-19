@@ -6,12 +6,32 @@ for item in range(0, 10):
 ```
 
 * for로 시작을 합니다. 한칸을 띄웁니다.
+```python
+for 
+```
 * item이라고 변수 이름을 씁니다. 한칸을 띄웁니다.
+```python
+for item 
+```
 * in을 씁니다. 한칸을 띄웁니다. 뒤에 있는것 안에서 뽑아온다는 뜻입니다.
+```python
+for item in 
+```
 * range(0, 10)이라고 씁니다. 0 ~ 9까지 숫자 목록(list)을 만들어줍니다.
+```python
+for item in range(0, 10)
+```
 * :를 붙입니다.
+```python
+for item in range(0, 10):
+```
 * 엔터를 칩니다.
+* tab으로 들여쓰기를 합니다.
 * print(item)을 입력합니다. item에 0부터 9까지 10개의 숫자가 들어옵니다.
+```python
+for item in range(0, 10):
+    print(item)
+```
 
 
 ## formatting
