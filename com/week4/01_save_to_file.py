@@ -1,4 +1,5 @@
-f1 = open("./a.txt", mode='w+')
+f1 = open("./hello.txt", mode='w+')
 f1.write("hello\n")
 f1.write("nello\n")
 f1.close()
+print("파일 저장이 완료 되었습니다. 같은 폴더에 hello.txt를 찾아보세요.")

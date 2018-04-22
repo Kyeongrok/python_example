@@ -1,4 +1,4 @@
-f1 = open("./a.txt", mode='r')
+f1 = open("./hello.txt", mode='r')
 lines = f1.readlines()
 
 datas = []
