@@ -7,7 +7,8 @@
     * parameter
     * return
 * [2주차](./Week2.md)
-    * for
+    * 반복문(for)
+    * 구구단 2단 출력하기
+* [3주차](./Week3.md)
+    * 배열(array), 리스트(list)
     * formatting
-    * 크롤링이란?
-    * 파싱이란?
