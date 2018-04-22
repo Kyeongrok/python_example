@@ -12,3 +12,6 @@
 * [3주차](./Week3.md)
     * 배열(array), 리스트(list)
     * formatting
+* [4주차](./Week4.md)
+    * 파일로 저장하기
+    * 파일에서 불러오기
