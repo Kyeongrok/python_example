@@ -33,6 +33,21 @@ for item in range(0, 10):
     print(item)
 ```
 
+## 구구단 2단 출력하기
+구구단은 반복문과 print()를 연습하기 좋은 예제 입니다.
+
+* 여러개의 값들 한줄에 출력하기
+```python
+print(2, 1, 2)
+print(2, "*", 1, "=", 2)
+```
+
+* 반복문을 이용해 구구단을 출력 해봅시다.
+```python
+for item in range(1, 10):
+    print(2, "*", item, "=", 2 *item)
+```
+
 
 ## formatting
     * formatting은 특정 정보들을 포메팅 해서 출력하기 위해 사용합니다.
