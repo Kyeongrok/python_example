@@ -14,3 +14,5 @@ plt.draw()
 plt.plot(x, z)
 plt.draw()
 
+plt.show()
+
