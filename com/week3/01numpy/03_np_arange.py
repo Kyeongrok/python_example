@@ -1,5 +1,4 @@
 import numpy as np
-
-x = np.linspace(1, 10, 10)
+x = np.arange(1, 10, 0.1)
 
 print(x)
