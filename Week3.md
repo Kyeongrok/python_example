@@ -14,51 +14,49 @@ print(gugudan)
 * 한줄에 여러가지 정보를 내가 원하는 모양으로 출력하기 위해 사용 합니다.
 
 
-정규식은 문자열(string)에서 특정 패턴을 매치(match) 할 때 사용한다.
+## API란?
+어떤 기능 입니다. 주로 Token을 받아서 인터넷으로 호출하는 식으로 많이 사용 합니다.
+ 
+기능 설명서를 API문서라고 합니다. 특정 기능의 사용 방법을 써놓은 문서입니다.
 
-## 기본 개념과 용어들
-    * url : 인터넷 주소
-    * http : 인터넷 주소 앞에 붙는 것 protocol
-    * html : 인터넷에서 문서를 보여줄때 쓰는 표현식들
-    * server : 페이지를 서빙해주는 곳 (naver, google)
 
-## 크롤링이란?
-    * 인터넷 주소로 서버에 데이터를 요청해서 받아오는 것(콘솔에 출력하는 것)
-    * 라이브러리 : urlopen
-
-## 파싱이란?
-    * 크롤링한 데이터에서 값을 뽑아내는 것
-    * 라이브러리:bs4 BeautifulSoup 뷰티풀솝
-
-css
-css selector
-	페이지 내에 데이터(한 단어)가 있는 곳의 주소
-html tag
-
-## 트리구조
-
-<pre>
-여행가는 책
-책시작
-	1장 비행기 타는 법
-		1절 한국에서 가능법
-		2절 외국에서 오는법
-	2장 숙소로 이동 하는 법
-책끝 맺음말
-</pre>
-
-```html
-<html>
-	<div>
-		<ul>
-			<li>
-				<a>
-					<span>
+## numpy
+숫자로 된 어떤 작업을 할 때 좋은 라이브러리 입니다.
+```python
+import numpy as np
 ```
 
-## html 태그
-```html
-<html>, <div>, <ul>, <li>, <a>, <span> 등이 있다.
+## np.array
+numpy를 쓸 때는 np.array를 사용하는게 더 빠릅니다. 
+```python
+import numpy as np
+
+# array만드는 법 np로
+x = np.array([1, 2, 3])
+# []대괄호는 array(배열)다.
+
+print(x)
+
+```
+
+## np.linspace
+1~10까지 10개의 숫자를 만듭니다.
+```python
+import numpy as np
+
+x = np.linspace(1, 10, 10)
+
+print(x)
+```
+
+## np.arange
+1~10까지 0.1씩 건너가면서 숫자를 만듭니다.
+
+```python
+import numpy as np
+x = np.arange(1, 10, 0.1)
+
+print(x)
 ```
 
 # 실습

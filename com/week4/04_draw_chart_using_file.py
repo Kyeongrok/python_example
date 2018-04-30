@@ -8,7 +8,7 @@ datas = []
 for line in lines:
     datas.append(line.replace("\n", ""))
 
-x = np.arange(1, 1001, 1)
+x = np.arange(1, datas, 1)
 y = np.array(datas)
 
 
