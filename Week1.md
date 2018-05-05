@@ -147,6 +147,14 @@ print_message("bye")
 * 함수 이름 옆에 ()안에 들어갑니다. ex) print_message(p_message)    
 * 파라메터는 여러개를 만들 수 있습니다.
 
+```python
+def print_message(message):
+    print(message)
+
+print_message("bye")
+```
+위와 같이 p_message대신에 message라고 써도 됩니다. 파라메터의 이름이 중요한 것은 아닙니다.
+
 ## Parameter여러개 만들기
 parameter를 이용하면 외부에서 여러개의 값을 받을 수 있다.
 ```python
