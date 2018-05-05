@@ -137,7 +137,7 @@ hello
 
 https://github.com/Kyeongrok/python_example/blob/master/com/week1/04_parameter.py
 ## Parameter(파라메터)란?
-함수를 호출 할 때 함수로 값을 넘겨줄 때 사용하는 변수. '파라메터'라고 읽습니다. 한글로 번역된 말은 '매개변수'입니다.
+함수를 호출 할 때 함수로 값을 넘겨줄 때 사용하는 변수. '파라메터'라고 읽습니다. 한글로 번역된 말은 '매개변수'입니다. p_message가 파라메터 입니다.
 ```python
 def print_message(p_message):
     print(p_message)
