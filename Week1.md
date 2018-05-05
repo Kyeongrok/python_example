@@ -170,4 +170,15 @@ print_message_who("hello", "kyeongrok")
 * 왜 쓰냐면 연산한 결과를 다른곳에 사용하기 위함
 * 처음에 console만 보면 동일해서 헷갈림.
 
+```python
+def plus(val1, val2):
+    return val1 + val2
+
+result = plus(10, 20)
+
+print(result)
+```
+plus()를 호출한 곳으로 값을 돌려준다.
+
+
 
