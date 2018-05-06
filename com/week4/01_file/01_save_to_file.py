@@ -1,4 +1,4 @@
-f1 = open("./hello.txt", mode='a+')
+f1 = open("./hello.txt", mode='w+')
 f1.write("hello\n")
 f1.write("nello\n")
 f1.close()

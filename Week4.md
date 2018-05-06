@@ -105,6 +105,34 @@ hello
 nello
 ```
 
+### 1 to 10까지 저장하기
+```python
+f1 = open("./1_to_10.txt", mode='w+')
+f1.write("1\n")
+f1.write("2\n")
+f1.write("3\n")
+f1.write("4\n")
+f1.write("5\n")
+f1.write("6\n")
+f1.write("6\n")
+f1.write("7\n")
+f1.write("8\n")
+f1.write("9\n")
+f1.write("10\n")
+f1.close()
+print("파일 저장이 완료 되었습니다. 같은 폴더에 1_to_10.txt를 찾아보세요.")
+```
+
+### 1 to 100 저장하기
+```python
+file_name = "./1_to_100.txt"
+f1 = open(file_name, mode='w+')
+for number in range(1, 101):
+    f1.write(str(number) + "\n")
+f1.close()
+print("파일 저장이 완료 되었습니다. 같은 폴더에 {}를 찾아보세요.".format(file_name))
+```
+
 ### 파일에서 불러오기
 hello.txt파일을 불러와서 안에 있는 내용을 콘솔에 출력 하는 예제 입니다. 
 ```python
