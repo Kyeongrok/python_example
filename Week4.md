@@ -4,10 +4,14 @@
 ```python
 import numpy as np
 import matplotlib.pylab as plt
-
 ```
 
 ### y = x 그래프 그리기
+```python
+import matplotlib.pylab as plt
+```
+
+# y = x
 ```python
 import matplotlib.pylab as plt
 
@@ -20,6 +24,7 @@ plt.show()
 ```
 
 ### y = 2x 그래프 그리기
+```python
 import matplotlib.pylab as plt
 
 # y = 2x
@@ -28,6 +33,7 @@ y = [2, 4, 6]
 
 plt.plot(x, y)
 plt.show()
+```
 
 ### y = 2x + 1 그래프 그리기
 ```python
