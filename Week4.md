@@ -11,7 +11,7 @@ import matplotlib.pylab as plt
 import matplotlib.pylab as plt
 ```
 
-# y = x
+### y = x
 ```python
 import matplotlib.pylab as plt
 
