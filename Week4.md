@@ -1,3 +1,87 @@
+## 파이썬으로 차트 그리기
+
+### matplot.pylab 임포트 하기
+```python
+import numpy as np
+import matplotlib.pylab as plt
+
+```
+
+### y = x 그래프 그리기
+```python
+import matplotlib.pylab as plt
+
+# y = x
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+plt.plot(x, y)
+plt.show()
+```
+
+### y = 2x 그래프 그리기
+import matplotlib.pylab as plt
+
+# y = 2x
+x = [1, 2, 3]
+y = [2, 4, 6]
+
+plt.plot(x, y)
+plt.show()
+
+### y = 2x + 1 그래프 그리기
+```python
+import matplotlib.pylab as plt
+import numpy as np
+
+# y = 2x
+# y = 2x + 1
+x = np.arange(1, 10, 1)
+y = 2 * x + 1
+
+plt.plot(x, y)
+plt.show()
+
+```
+
+### sin그래프 그리기
+```python
+import numpy as np
+import matplotlib.pylab as plt
+
+x = np.arange(1, 10 + 1, 0.1)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.grid()
+plt.show()
+
+```
+
+### sin, cos그래프 동시에 그리기
+```python
+import numpy as np
+import matplotlib.pylab as plt
+
+x = np.arange(1, 10 + 1, 0.1)
+y = np.sin(x)
+z = np.cos(x)
+
+print(x)
+print(y)
+
+plt.grid()
+plt.plot(x, y)
+plt.draw()
+plt.plot(x, z)
+plt.draw()
+
+plt.show()
+
+```
+
+
+
 ### 파일에 저장하기
 hello.txt라는 파일을 만들고 첫번째 줄에 hello, 두번째 줄에 nello를 넣는 예제 입니다. 
 ```python
