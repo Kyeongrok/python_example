@@ -35,9 +35,18 @@ File -> Settings -> interpreter 검색
     * package는 폴더라고 생각하시면 됩니다.
 
     * 폴더(package)를 만들고 python파일을 만듭니다.
-    * 만든 package에서 context menu를 호출 합니다.
-    * new -> python file
-    * 파일명 01_hello
+    
+
+## 파이썬 파일 만들기
+* 만든 package에서 context menu를 호출 합니다.
+* new -> python file
+* 파일명 01_hello
+
+## hello 출력하기
+```python
+print("hello")
+```
+만든 파일에 위와 같이 입력 합니다.
 
 ## 실행 방법
     * run -> run
