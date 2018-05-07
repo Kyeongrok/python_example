@@ -75,7 +75,7 @@ print(range(0, 10))
 range(0, 10)에 뭐가 들어있는지 보려면 list()로 감싸서 출력을 해야 합니다. list()는 받은 데이터를 []형태로 만들어 주는 함수 입니다. 
 ```python
 print(list(range(0, 10)))
-```
+````
 
 이렇게도 출력을 할 수 있습니다.
 ```python
@@ -105,3 +105,28 @@ for item in range(1, 10):
     print(2, "*", item, "=", 2 *item)
 ```
 
+### 2~9단 출력하기
+구구단을 출력하는 코드를 함수 안으로 넣고 반복문을 이용해 여러번 호출을 할 수 있습니다.
+```python
+def print_gugudan(dan):
+    for item in range(1, 10):
+        print(dan, "*", item, "=", dan *item)
+
+for dan in range(2, 10):
+    print_gugudan(dan)
+
+```
+
+결과
+```text
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+---- 중략 ----
+9 * 7 = 63
+9 * 8 = 72
+9 * 9 = 81
+```
