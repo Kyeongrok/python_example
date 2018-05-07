@@ -122,6 +122,8 @@ print_hello() #로 호출한다.
 
 ## 변수와 상수
 변수는 '변'하는 '수'(값)이고 상수는 항'상' 같은 '수'(값)
+
+03_variable_constants.py
 ```python
 result = 10
 print(result)
