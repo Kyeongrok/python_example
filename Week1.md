@@ -51,7 +51,10 @@ print("hello")
 ## 실행 방법
     * 상단 메뉴run -> run
     * hello가 출력 되는 부분이 console 입니다.
-
+결과
+```text
+hello
+```
 
 ## function(함수)이란?
     * 펑션으로 읽는다. 함수로 번역 해놓았다.
@@ -61,6 +64,7 @@ print("hello")
     * 함수는 선언을 하고 호출을 해야 실행된다.
 
 ## Function(함수)만들기
+02_function.py를 만듭니다. Python File로 만듭니다.
 ```python
 def print_hello():
     print("hello")
