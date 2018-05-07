@@ -70,20 +70,21 @@ def print_hello():
     print("hello")
 ```
 
-* def로 시작한다.
+* def로 시작합니다.
+* def는 함수를 선언하는 명령어 입니다.
 ```python
 def
 ```
-* def옆에 한칸을 띄운다
+* def옆에 한칸을 띄웁니다.
 ```python
 def 
 ```     
     
-* 그 옆에는 이름(print_hello)을 적는다.
+* 그 옆에는 이름(print_hello)을 적습니다.
 ```python
 def print_hello
 ```
-* 이름은 아무거나 가능하다. ex)aaaa, bbb, plus, minus
+* 이름은 아무거나 가능합니다. ex)aaaa, bbb, plus, minus
 
 * 이름 옆에는 ()를 붙인다.
 ```python
@@ -108,7 +109,10 @@ def print_hello():
 ## function(함수) 실행하기, 호출하기
 함수는 선언 한 후에 호출을 해주어야 실행이 되기 때문에 호출을 해줍니다.
 ```python
-print_hello() #로 실행한다.
+def print_hello():
+    print("hello")
+    
+print_hello() #로 호출한다.
 ```
     * <함수 이름>()
     * <함수 이름>(파라메터)
