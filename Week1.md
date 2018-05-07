@@ -49,7 +49,7 @@ print("hello")
 만든 파일에 위와 같이 입력 합니다.
 
 ## 실행 방법
-    * run -> run
+    * 상단 메뉴run -> run
     * hello가 출력 되는 부분이 console 입니다.
 
 
