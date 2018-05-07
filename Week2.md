@@ -32,6 +32,39 @@ for item in range(0, 10):
 for item in range(0, 10):
     print(item)
 ```
+결과
+```text
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+### 0~10이 나오게 하려면?
+```python
+for item in range(0, 11):
+    print(item)
+```
+결과
+```text
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
 
 ## range(0, 10)이란?
 ```python
