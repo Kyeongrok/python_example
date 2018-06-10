@@ -200,4 +200,24 @@ print(result)
 plus()를 호출한 곳으로 값을 돌려준다.
 
 
+### return을 썼을때와 안썼을 때의 차의
+```python
+def print_hello(p1, p2):
+    print(p1 + p2)
+
+def plus(val1, val2):
+    return val1 + val2
+
+result = plus(10, 20)
+print(result)
+result = print_hello(10, 20)
+print(result)
+```
+
+결과
+```text
+30
+30
+None
+```
 
