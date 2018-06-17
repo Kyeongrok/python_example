@@ -66,6 +66,17 @@ for item in range(0, 11):
 10
 ```
 
+## Array(어레이)란?
+[] 대괄호로 시작해서 대괄호로 끝나는 것
+안에 여러가지 숫자나 문자열 오브젝트 등을 0개 또는 그 이상 넣을 수 있습니다.
+```python
+numbers = [1, 2, 3]
+users = ["kyeongrok", "jihyun"]
+range1 = list(range(0, 10)) # 얘도 어레이
+```
+
+list(리스트)의 성질을 가집니다. 어떤거냐면 추가 삭제를 할 수 있는 것입니다.
+
 ## range(0, 10)이란?
 ```python
 print(range(0, 10))
